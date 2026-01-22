@@ -2,23 +2,133 @@
 <html lang="en">
 
 <!--
-WRITTEN BY: Your name here
-EMAIL: Your email here
+WRITTEN BY: Ben Zhang
+EMAIL: zhangc41@uci.edu
 -->
 
 <head>
   <meta charset="utf-8">
-  <meta name="author" content="Your name here">
-  <meta name="description" content="description of your page">
-   <!-- you would link to an external stylesheet here! -->
-   <!-- you would also link to Bootstrap here! -->
-  <title>title here</title>
+  <meta name="author" content="Ben Zhang">
+  <meta name="description" content="My digital portfolio!">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+   <link rel="stylesheet" href="./css/bootstrap.min.css">
+   <link rel="stylesheet" href="./style.css">
+  <title>Gemini_Bllllue</title>
 </head>
 <body>
+  <nav class="navbar navbar-expand-md navbar-dark px-4 fixed-top">
+      <a class="navbar-brand" href="#">
+        <img src="./src/imgs/my_signature.png" alt="Signature of author" height="50">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#intro"> Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects"> Projects </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacts"> Contacts </a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+
+  <section id="intro" class="py-5">
+    <div class="container text-white">
+      <div class="row">
+        <div class="col-md-4 col-8 offset-md-0 offset-2 py-2">
+          <img src="./src/imgs/my_profile.png" alt="profile photo of author (Ben Zhang)"
+            class="img-fluid rounded-circle profile">
+        </div>
+        <div class="col-md-8">
+          <h1>Ben Zhang</h1>
+          <h2>Welcome to my page!</h2>
+          <p>
+            Hello! I am a prospecting artist and game designer. :] <br>
+            I am currently studying at University of California, Irvine. On the way of obtaining 
+            a degree in Informatics B.S. and Art B.A. <br>
+            I love to play games and would love to work in the game industry as an artist or project manager 
+            after graduation! Please feel free to take a look at the game projects I've worked on so far in the section below
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="py-5">
+    <div class="container text-white">
+      <h2> My Projects </h2>
+
+        <div class="row py-4 project">
+          <div class="d-none d-md-block col-md-2">
+            <img src="src/imgs/diabolic_lord.gif" alt="icon of game Diabolic Lord, animated pixel demon head"
+              class="img-fluid">
+          </div>
+          <div class="col-md-10 col-12">
+            <h3><a href="https://geminibllllue.itch.io/diabolic-lord-tdlf"> 
+              Diabolic Lord
+            </a></h3>
+            <p>
+              Adventurers have fought their way to your fortress, but as the Demon Lord, 
+              you are ready to obliterate them with gleeful evil. 
+              The Abyssal Portal opens, your power surges... <br>
+              You will RULE THE WORLD and NO ONE can stop you. 
+              HAHAHAHAHAHAHA (evil laugh) 😈
+            </p>
+          </div>
+        </div>
+        
+        <div class="row py-4 project">
+          <div class="d-none d-md-block col-md-2">
+            <img src="src/imgs/tomo_no_taiko.png" alt="icon of game Tomo No Taiko"
+              class="img-fluid rounded">
+          </div>
+          <div class="col-md-10 col-12">
+            <h3><a href="https://geminibllllue.itch.io/tnt-nh"> 
+              Tomo No Taiko: New Horizons
+            </a></h3>
+            <p>
+              Weild the power of taiko drumming to combat Oni and evil spirits in a cyberpunk city. 
+              Harness the energy of rhythm to face epic boss fights, unlock new characters and taiko forms! 
+              (We are still working on it lol)
+            </p>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <section id="contacts" class="py-5">
+    <div class="container text-white text-center">
+      <h2> My Contacts </h2>
+      <div class="row">
+        <div class="col-md-4 col-12">
+          <p><em> chi.zhang106@gmail.com </em></p>
+        </div>
+        <div class="col-md-4 col-12">
+          <p><em> <a href="https://github.com/GeMini-220"> my GitHub </a> </em></p>
+        </div>
+        <div class="col-md-4 col-12">
+          <p><em> <a href="www.linkedin.com/in/chi-ben-zhang"> my LinkedIn </a> </em></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--
   <p>
     <a href="http://validator.w3.org/check?uri=referer">
        W3C validator
     </a>
   </p>
+  -->
+
+  <script src="./script/bootstrap.bundle.min.js"></script>
 </body>
 </html>
